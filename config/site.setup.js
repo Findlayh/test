@@ -6,8 +6,9 @@ const clear = require('clear');
 const figlet = require('figlet');
 
 const { prompt } = require('enquirer');
+const { TRUE } = require('node-sass');
 
-const skip_setup = process.env.SKIP_SETUP || false;
+const skip_setup = process.env.SKIP_SETUP || TRUE;
 
 let ROOT = process.env.PWD;
 
